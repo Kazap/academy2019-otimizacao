@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slow App</title>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/bulma.css" media="screen" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="./assets/javascripts/infiniteScroll.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/locale/uk.js"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Slow App
+        </h1>
+        <h2 class="subtitle">
+          Esse é um exemplo de página <strong>extremamente</strong> lenta.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container feed content-container">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-light-yellow cool-shadow">
+              <p class="title">Lorem Ipsum</p>
+              <p class="subtitle">Lorem Ipsum</p>
+              <figure class="image is-4by3">
+                <img src="./assets/images/fruits.jpg">
+              </figure>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-light-blue cool-shadow">
+              <p class="title">Ipsum Dolor</p>
+              <p class="subtitle">Lorem Ipsum</p>
+              <figure class="image is-4by3">
+                <img src="./assets/images/sky.jpg">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-gray cool-shadow">
+            <p class="title">Lorem Dolor</p>
+            <p class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, perferendis
+              recusandae. Saepe sit nisi delectus, nostrum veritatis assumenda velit accusamus molestias facere nulla.
+              Ducimus optio impedit corrupti repudiandae deserunt esse! Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Temporibus, perferendis recusandae. Saepe sit nisi delectus, nostrum veritatis assumenda
+              velit accusamus molestias facere nulla. Ducimus optio impedit corrupti repudiandae deserunt esse!</p>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-light-green cool-shadow">
+          <div class="content">
+            <p class="title">Dolor Sit</p>
+            <p class="subtitle">Lorem Ipsum</p>
+            <img src="./assets/images/waterfall.jpg" style="width: 100%; display: block;" />
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="container loading-container" style="margin-bottom: 25px;">
+    <progress class="progress is-small is-primary" max="100">15%</progress>
+  </div>
+</body>
+</html>
